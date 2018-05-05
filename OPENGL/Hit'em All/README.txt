@@ -5,7 +5,7 @@ Controls:-
 	DOWN KEY:	Apply brake to the horizontal movement.
 
 GamePlay:-
-->	Initially the ball will be stationary.
+->	Initially the ball will be stationary on the ground.
 ->	On pressing any of the Left or Right key a specific velocity is imparted to the ball in that direction.The Jump height is adjusted such that it can jump
 	over only one level of blocks at a time.
 ->	On Landing on the top of blocks points are rewarded and some vertical push is given.On hitting/collinding with any other side the ball will be reflected back
