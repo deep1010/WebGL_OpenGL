@@ -1,4 +1,6 @@
+
 Installation
+
 You need to install the development packages of the following libraries:
 GLEW
 GLFW3
@@ -21,3 +23,10 @@ Other distros
 Use the equivalent of apt search or dnf search and make sure you install the devel packages
 Driver Issues
 If you do face driver issues, try to update your drivers. If you continue facing issues even after installing, I suggest you update your operating system to the latest stable release. You can also try building the libraries, but it would be a waste of time IMO.
+
+
+Opening A Project In Qt-Creator
+
+Read the below link on how to open and run a project in QT-Creator
+
+https://codeyarns.com/2016/01/26/how-to-import-cmake-project-in-qt-creator/
