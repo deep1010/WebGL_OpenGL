@@ -1,0 +1,23 @@
+Installation
+You need to install the development packages of the following libraries:
+GLEW
+GLFW3
+GLM
+Installing an IDE like QT Creator is highly recommended
+We are gonna use CMake for building our assignment and tutorial codes
+Using UNIX based system (Linux or Mac) is strongly recommended
+Fedora
+sudo dnf install glew-devel glfw-devel glm-devel cmake pkgconf pkgconf-pkg-config
+sudo dnf install qt-creator # (Optional)
+Ubuntu
+sudo apt install libglew-dev libglfw3-dev libglm-dev cmake pkg-config
+sudo apt install qtcreator # (Optional)
+(Use apt-get if you don’t have aptitude installed but I suggest installing it)
+Mac
+# Install homebrew
+brew install glew glfw glm cmake pkg-config
+# (Optional) https://stackoverflow.com/a/28649980/675101 (Not tested)
+Other distros
+Use the equivalent of apt search or dnf search and make sure you install the devel packages
+Driver Issues
+If you do face driver issues, try to update your drivers. If you continue facing issues even after installing, I suggest you update your operating system to the latest stable release. You can also try building the libraries, but it would be a waste of time IMO.
